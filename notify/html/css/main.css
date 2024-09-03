@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: transparent !important;
+    overflow: hidden;
+}
+
+.template,
+.notification {
+    display: none;
+}
+
+.notif-container {
+    width: 22vw;
+    position: absolute;
+    top: 3.3vh;
+    right: 13vw;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+
+.notification {
+    position: relative;
+    padding: 1vh;
+    width: 700px;
+    border-radius: .4vh;
+    margin: 10px;
+    font-family: "Helvetica Neue", sans-serif;
+    font-size: 16px;
+    float: center;
+    border-left: 0.25em solid #68f0ae;
+}
+
+#icon-success {
+    top: 50%;
+    padding-right: 5px;
+    font-size: 12px;
+    color: #85e690;
+}
+
+#icon-primary {
+    position: relative;
+    display: inline-block; 
+    vertical-align: -1px; 
+    padding-right: 5px;
+    font-size: 16px;
+    color: rgb(67, 122, 185);
+}
+
+#icon-primary::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-left: -22px; 
+    margin-top: -9px; 
+    width: 16px; 
+    height: 16px; 
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 50%;
+    border-top: 1px solid transparent;
+    animation: spin 0.9s linear infinite; 
+}
+
+#icon-error {
+    top: 50%;
+    padding-right: 5px;
+    font-size: 12px;
+    color: rgb(202, 70, 70);
+}
+#icon-speech {
+    top: 50%;
+    padding-right: 5px;
+    font-size: 12px;
+}
+
+.success {
+    box-shadow: 0 2px 4px 2px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f;
+    background: #424242;
+    color: #fff;
+}
+
+.error {
+    box-shadow: 0 2px 4px 2px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f;
+    background: #424242;
+    color: #fff;
+}
+
+.primary {
+    box-shadow: 0 2px 4px 2px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f;
+    background: #424242;
+    color: #fff;
+}
+
+.speech {
+    box-shadow: 0 2px 4px 2px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f;
+    background: #424242;
+    color: #fff;
+}
+
+
+#icon-loading {
+    position: relative;
+    display: inline-block; 
+    vertical-align: -1px; 
+    padding-right: 5px;
+    font-size: 12px;
+    color: rgb(67, 122, 185);
+}
+#icon-loading::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-left: -13.5px; 
+    margin-top: -12.0px; 
+    width: 12px; 
+    height: 12px; 
+    border: 1px solid rgb(196, 196, 196);
+    border-radius: 50%;
+    border-top: 1px solid transparent;
+    animation: wrongwayspin 0.9s linear infinite; 
+}
+.loading {
+    box-shadow: 0 2px 4px 2px #0003, 0 4px 5px #00000024, 0 1px 10px #0000001f;
+    background: #424242;
+    color: #fff;
+}
+
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes wrongwayspin {
+    to {
+        transform: rotate(-360deg);
+    }
+}
