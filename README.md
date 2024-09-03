@@ -1,3 +1,7 @@
+# Preview
+
+![image](https://github.com/user-attachments/assets/365d17b1-e19d-474b-8cc7-80dbfc0ad059)
+
 # Simple Notify
 
 Notify Script With Animated Icons
