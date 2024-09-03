@@ -19,5 +19,6 @@ Now Head To:
 
 \ resources \ [qb] \ qb-core \ client And Locate Reference Below
 ```
-https://cdn.discordapp.com/attachments/1260391522998943787/1280672260042260591/image.png?ex=66d8ee7c&is=66d79cfc&hm=68e499e2f8bb22b12ae3e21edde6c67d9c021da66a5be776e1fa829bebd1df9e&
+
+![image](https://github.com/user-attachments/assets/4a3470ed-2d3d-4a54-a732-e93ec0bf7432)
 
