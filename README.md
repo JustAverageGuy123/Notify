@@ -1,9 +1,4 @@
 # Simple Notify
-Notify Script With Animated Icons
-
-![image](https://github.com/user-attachments/assets/72fe86b4-1998-4626-9270-cfad7844343b)
-
-# Simple Notify
 
 Notify Script With Animated Icons
 
@@ -11,21 +6,18 @@ Notify Script With Animated Icons
 
 See Below On How To Install This Correctly
 
-```bash
-pip install foobar
+
+```diff
+Resources:
+
+Firstly Drag The Script And Put It Into Resources And Ensure it with Your Server.CFG
 ```
 ```diff
-- text in red
-+ text in green
-! text in orange
-# text in gray
-@@ text in purple (and bold)@@
-> [!WARNING]
-> Critical content demanding immediate user attention due to potential risks.
-```
-## Usage
+QB-Core Install:
 
-```python
-foobar.pluralize('word')
+Now Head To:
+
+\ resources \ [qb] \ qb-core \ client And Locate Reference Below
+![image]https://cdn.discordapp.com/attachments/1260391522998943787/1280672260042260591/image.png?ex=66d8ee7c&is=66d79cfc&hm=68e499e2f8bb22b12ae3e21edde6c67d9c021da66a5be776e1fa829bebd1df9e&
 
 ```
