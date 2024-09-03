@@ -1,2 +1,2 @@
-# Notify
-Simple Notify Script With Animated Icons
+# Simple Notify
+Notify Script With Animated Icons
