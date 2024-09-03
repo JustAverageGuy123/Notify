@@ -12,10 +12,7 @@ Resources:
 
 Firstly Drag The Script And Put It Into Resources And Ensure it with Your Server.CFG
 ```
----
 ```diff
-QB-Core Install:
-
 Now Head To:
 
 \ resources \ [qb] \ qb-core \ client, And Locate Reference Below ↓
@@ -44,8 +41,6 @@ function QBCore.Functions.Notify(text, texttype, length, icon)
 end
 ```
 ![image](https://github.com/user-attachments/assets/4a3470ed-2d3d-4a54-a732-e93ec0bf7432)
-
----
 
 ```diff
 Now Once Found Replace It With Below Snippet At Lines 155 To Line 174:
